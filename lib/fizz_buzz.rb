@@ -3,7 +3,10 @@ class FizzBuzz
     if num % 3 == 0 && num % 5 == 0
       return "FizzBuzz"
     end
-    # return "Fizz"
+
+    if num % 3 == 0
+      return "Fizz"
+    end
     # return "Buzz"
     ""
   end
