@@ -1,11 +1,17 @@
 class FizzBuzz
   def fizz_buzz(num)
-    if num % 5
-      puts "Buzz"
-      return
+    if num % 3 == 0 && num % 5 == 0
+      return "FizzBuzz"
     end
-    # return "Fizz"
-    # return "FizzBuzz"
+
+    if num % 3 == 0
+      return "Fizz"
+    end
+
+    if num % 5 == 0
+      return "Buzz"
+    end
+
     ""
   end
 end
