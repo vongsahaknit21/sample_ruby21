@@ -1,6 +1,8 @@
 class FizzBuzz
   def fizz_buzz(num)
-    # return "Fizz"
+    if num % 3 == 0
+      puts "Fizz"
+    end
     # return "Buzz"
     # return "FizzBuzz"
     ""
